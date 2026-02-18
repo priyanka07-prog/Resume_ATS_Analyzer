@@ -1,4 +1,4 @@
-# utils/prompt_templates.py
+#utils.prompt_templates.py
 def resume_analysis_prompt(resume_text, job_role):
     return f"""
 You are an ATS resume analyzer.
