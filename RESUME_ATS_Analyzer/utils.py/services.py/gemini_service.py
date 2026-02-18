@@ -2,7 +2,7 @@
 import os
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
-from utils.prompt_templates import resume_analysis_prompt
+from prompt_template import resume_analysis_prompt
 
 load_dotenv()
 

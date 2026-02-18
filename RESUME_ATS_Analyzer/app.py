@@ -1,6 +1,7 @@
 # app.py
 import streamlit as st
 from utils.resume_reader import read_resume
+from utils.prompt_template import resume_analysis_prompt    
 from services.gemini_service import analyze_resume
 
 st.title("📄 Resume Analyzer (ATS Friendly)")
